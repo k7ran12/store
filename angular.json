@@ -28,9 +28,28 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/vendor/unicons-2.0.1/css/unicons.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/night-mode.css",
+              "src/assets/vendor/fontawesome-free/css/all.min.css",
+              "src/assets/vendor/OwlCarousel/assets/owl.carousel.css",
+              "src/assets/vendor/OwlCarousel/assets/owl.theme.default.min.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/semantic/semantic.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.3.1.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/OwlCarousel/owl.carousel.js",
+              "src/assets/vendor/semantic/semantic.min.js",
+              "src/assets/js/jquery.countdown.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/product.thumbnail.slider.js",
+              "src/assets/js/offset_overlay.js",
+              "src/assets/js/night-mode.js"              
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +143,8 @@
       }
     }
   },
-  "defaultProject": "store"
+  "defaultProject": "store",
+  "cli": {
+    "analytics": "2ded10ab-882a-4fce-afa8-b4edfc196b40"
+  }
 }
