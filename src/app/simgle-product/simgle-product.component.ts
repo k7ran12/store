@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 declare var $:any;
+declare var sync1:any;
+declare var sync2:any;
 
 @Component({
   selector: 'app-simgle-product',
@@ -13,7 +15,11 @@ export class SimgleProductComponent implements OnInit {
 
   ngOnInit(): void {
     $(".owl-carousel").owlCarousel();
-    $("#sync1").owlCarousel();
+    $("#cristian").click(function(){
+      alert("Hola");
+    }); 
+
+    
   }
 
 }
